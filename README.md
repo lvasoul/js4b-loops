@@ -9,7 +9,7 @@
 ```
 git remote add upstream https://github.com/gerkirill/js4b-loops.git
 git fetch upstream
-git pull upstream master
+git merge upstream/master -m "updates from upstream"
 ```
 это обновит вашу локальную копию. следующий же `git push` обновит ваш форк на гитхабе.
 
