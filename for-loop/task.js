@@ -1,9 +1,15 @@
 function listAll(min, max) {
-  var result = '1 2 3 ';
+  var result = '';
+  for (let i = min; i <= max; i++) {
+  	result += i + ' ';
+  };
   return result.trim();
 }
 
 function listBetweenDesc(min, max) {
-  var result = '3 2';
+  var result = '';
+  for (let i = max-1; i > min; i--) {
+      result += i + ' ';
+  }
   return result.trim();
 }
