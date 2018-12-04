@@ -11,8 +11,6 @@ function integerDivision(dividend, divider) {
 }
 
 // * bank deposit calculator
-// use: while loop
-// don't use: *, / and %
 function getDepositDuration(initialDeposit, monthlyPercent, desiredDeposit) {
   var monthCounter = 0;
 
